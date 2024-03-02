@@ -1,0 +1,466 @@
+.container{
+    background: rgb(32,32,32);
+   background: radial-gradient(circle, rgba(32,32,32,0.8477766106442577) 0%, rgba(224,224,224,1) 50%, rgba(255,255,255,1) 100%);
+     width:100vw;
+     height:100vh;
+   }
+   
+   .header{
+   /*  background-color:red; */
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     align-items:center;
+   }
+   
+   h1{
+     font-size:30px;
+     font-family: 'Playfair Display';
+     color: #2d2d2d;
+     font-weight: 400;
+     font-size: 40px;
+   }
+   
+   .topnav input[type="text"]
+   {
+     font-size: 30px;
+     font-family: 'Playfair Display';
+     border: 1px solid #2d2d2d;
+     padding: 5px;
+     text-align: left;
+     border-radius:5px;
+     opacity:70%;
+   }
+   
+   .topnav .search-container button {
+     float: right;
+     font-size:30px;
+     color: #000000;
+     border: none;
+     cursor: pointer;
+     margin-right: 11px;
+     margin-left: 20px;
+     margin-top: 7px;
+     border-radius:5px;
+     font-family:"IBM Plex Sans"
+   }
+   
+   .topnav:hover .search-container button
+   {
+     opacity: 1;
+     animation: move 5s infinite;
+   }
+   
+   @keyframes move{
+     0% {
+       transform: translateY(100vw);
+     }
+     100%
+     {
+       transform: translateY(-100vw);
+     }
+   }
+   
+   
+   .imgstar
+   {
+     float: left;
+     width: 130px;
+     height: 130px;
+     position: absolute;
+     left: 40px;
+     top: 55px;
+     cursor:pointer;
+   }
+   
+   .imgstar:hover
+   {
+    opacity: 0;
+   }
+   
+   .imgstar:hover ~ imgstar
+   {
+     opacity: 1;
+   }
+   
+   .imgoreo {
+     position: absolute;
+     width: 230px;
+     height: 230px;
+     right: 10px; 
+     top: 60px; 
+     cursor:pointer;
+   }
+   
+   .imgoreo:hover
+   {
+    opacity: 0;
+   }
+   
+   .imgoreo:hover ~ imgoreo
+   {
+     opacity: 1;
+   }
+   
+   .imgtam{
+     position: absolute;
+     width: 230px;
+     height: 230px;
+     right: 210px;
+     top: 140px;
+     cursor:pointer;
+   }
+   .imgtam:hover
+   {
+    opacity: 0;
+   }
+   
+   .imgtam:hover ~ imgtam
+   {
+     opacity: 1;
+   }
+   
+   .imgphone
+   {
+     position: absolute;
+     width: 300px;
+     height: 250px;
+    left: 300px;
+     top: 120px;
+     cursor:pointer;
+   }
+   
+   .imgphone:hover
+   {
+    opacity: 0;
+   }
+   
+   .imgphone:hover ~ imgphone
+   {
+     opacity: 1;
+   }
+     
+    .imgshoe
+   {
+     position: absolute;
+     width: 191px;
+     height: 132px;
+     left: 110px;
+     top: 200px;
+     cursor:pointer;
+   }
+   
+   .imgshoe:hover
+   {
+    opacity: 0;
+   }
+   
+   .imgshoe:hover ~ imgshoe
+   {
+     opacity: 1;
+   }
+   
+   
+   .imgbag
+   {
+     position: absolute;
+     width: 226px;
+     height: 226px;
+     left: 750px;
+     top: 200px;
+     cursor:pointer;
+   }
+   
+   .imgbag:hover
+   {
+    opacity: 0;
+   }
+   
+   .imgbag:hover ~ imgbag
+   {
+     opacity: 1;
+   }
+   
+   .imgcamera
+   {
+     position: absolute;
+     width: 180px;
+     height: 180px;
+     left: 1070px;
+     top: 400px;
+     cursor:pointer;
+   }
+   
+   .imgcamera:hover
+   {
+    opacity: 0;
+   }
+   
+   .imgcamera:hover ~ imgcamera
+   {
+     opacity: 1;
+   }
+   
+   .imgclip
+   {
+     position: absolute;
+     width: 130px;
+     height: 130px;
+     left: 1070px;
+     top: 230px;
+     cursor:pointer;
+   }
+   
+   .imgclip:hover
+   {
+    opacity: 0;
+   }
+   
+   .imgclip:hover ~ imgclip
+   {
+     opacity: 1;
+   }
+   
+   .imgscr
+   {
+     position: absolute;
+     width: 130px;
+     height: 100px;
+     left: 580px;
+     top: 230px;
+     cursor:pointer;
+   }
+   
+   .imgscr:hover
+   {
+    opacity: 0;
+   }
+   
+   .imgscr:hover ~ img
+   {
+     opacity: 1;
+   }
+   .imgclip1
+   {
+     position: absolute;
+     width: 240px;
+     height: 240px;
+     left: 100px;
+     top: 310px;
+     cursor:pointer;
+   }
+   
+   .imgclip1:hover
+   {
+    opacity: 0;
+   }
+   
+   .imgclip1:hover ~ imgclip1
+   {
+     opacity: 1;
+   }
+   
+   
+   
+   .imgshirt
+   {
+     position: absolute;
+     width: 240px;
+     height: 320px;
+     left: 1360px;
+     top: 400px;
+     cursor:pointer;
+   }
+   
+   .imgshirt:hover
+   {
+    opacity: 0;
+   }
+   
+   .imgshirt:hover ~ imgshirt
+   {
+     opacity: 1;
+   }
+   
+   .imgcart
+   {
+     position: absolute;
+     width: 220px;
+     height: 210px;
+     left: 400px;
+     top: 400px;
+     cursor:pointer;
+   }
+   
+   .imgcart:hover
+   {
+    opacity: 0;
+   }
+   
+   .imgcart:hover ~ imgcart
+   {
+     opacity: 1;
+   }
+   
+   .imgglass
+   {
+     position: absolute;
+     width: 270px;
+     height: 250px;
+     left: 720px;
+     top: 470px;
+     cursor:pointer;
+   }
+   
+   .imgglass:hover
+   {
+    opacity: 0;
+   }
+   
+   .imgglass:hover ~ imgglass
+   {
+     opacity: 1;
+   }
+   
+   .imgclock
+   {
+     position: absolute;
+     width: 220px;
+     height: 220px;
+     left: 60px;
+     top: 520px;
+     cursor:pointer;
+   }
+   
+   .imgclock:hover
+   {
+    opacity: 0;
+   }
+   
+   .imgclock:hover ~ imgclock
+   {
+     opacity: 1;
+   }
+   .imgbow
+   {
+     position: absolute;
+     width: 230px;
+     height: 180px;
+     left:1070px;
+     top: 580px;
+     cursor:pointer;
+   }
+   
+   .imgbow:hover
+   {
+    opacity: 0;
+   }
+   
+   .imgbow:hover ~ imgbow
+   {
+     opacity: 1;
+   }
+   
+   .imgclock:hover ~ imgclock
+   {
+     opacity: 1;
+   }
+   .imgheart
+   {
+     position: absolute;
+     width: 100px;
+     height: 100px;
+     left:1280px;
+     top: 50px;
+     cursor:pointer;
+   }
+   
+   .imgheart:hover
+   {
+    opacity: 0;
+   }
+   
+   .imgheart:hover ~ imgheart
+   {
+     opacity: 1;
+   }
+   
+   .imgglass1
+   {
+     position: absolute;
+     width: 200px;
+     height: 200px;
+     left:1300px;
+     top: 680px;
+     cursor:pointer;
+   }
+   
+   .imgglass1:hover
+   {
+    opacity: 0;
+   }
+   
+   .imgglass1:hover ~ imgglass1
+   {
+     opacity: 1;
+   }
+   
+   .imgbag1
+   {
+     position: absolute;
+     width: 220px;
+     height: 220px;
+     left:300px;
+     top: 680px;
+     cursor:pointer;
+   }
+   
+   .imgbag1:hover
+   {
+    opacity: 0;
+   }
+   
+   .imgbag1:hover ~ imgbag1
+   {
+     opacity: 1;
+   }
+   
+   .imgear
+   {
+     position: absolute;
+     width: 220px;
+     height: 220px;
+     left:530px;
+     top: 600px;
+     cursor:pointer;
+   }
+   
+   .imgear:hover
+   {
+    opacity: 0;
+   }
+   
+   .imgear:hover ~ imgear
+   {
+     opacity: 1;
+   }
+   
+   .imgbelt
+   {
+     position: absolute;
+     width: 220px;
+     height: 190px;
+     left:840px;
+     top: 720px;
+     cursor:pointer;
+   }
+   
+   .imgbelt:hover
+   {
+    opacity: 0;
+   }
+   
+   .imgbelt:hover ~ imgbelt
+   {
+     opacity: 1;
+   }
